@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #222;
+}
+
+header {
+    background: url('image.png') center/cover no-repeat;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    position: relative;
+}
+
+header p {
+    background: #fff;
+    color: #222;
+    display: inline-block;
+    padding: 0.75em 1em;
+    border-radius: 8px;
+    margin-top: 1em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    max-width: 600px;
+}
+
+footer {
+    background: #d63a96;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 2em auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.navbar {
+    background: #222;
+    padding: 0.5em 0;
+    text-align: center;
+    margin: 0 0 2em 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1.2em;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2em;
+}
+
+.navbar a .icon {
+    margin-right: 0;
+    margin-bottom: 0.1em;
+    font-size: 1.5em;
+    display: block;
+}
+
+.navbar a:hover {
+    color: #d63a96;
+    text-decoration: none;
+}

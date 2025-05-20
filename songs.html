@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Songs</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .icon {
+            vertical-align: middle;
+            margin-right: 0.3em;
+            font-size: 1.2em;
+        }
+        .song-list { max-width: 700px; margin: 2em auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); padding: 2em; }
+        .song { border-bottom: 1px solid #eee; padding: 1em 0; }
+        .song:last-child { border-bottom: none; }
+        .song-title { font-size: 1.3em; color: #d63a96; margin-bottom: 0.2em; }
+        .song-artist { color: #555; font-size: 1em; margin-bottom: 0.5em; }
+        .song-desc { color: #333; font-size: 0.98em; }
+        .navbar {
+            background: #222;
+            padding: 0.5em 0;
+            text-align: center;
+            margin: 0 0 2em 0;
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1.2em;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.2s;
+        }
+        .navbar a:hover {
+            color: #d63a96;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html"><span class="material-icons icon">home</span>Home</a>
+        <a href="songs.html"><span class="material-icons icon">library_music</span>Songs</a>
+        <a href="contact.html"><span class="material-icons icon">mail</span>Contact</a>
+    </nav>
+    <header>
+        <h1><span class="material-icons icon">music_note</span>My Favorite Songs</h1>
+    </header>
+    <main>
+        <div class="song-list">
+            <div class="song">
+                <div class="song-title"><span class="material-icons icon">star</span>Blinding Lights</div>
+                <div class="song-artist"><span class="material-icons icon">person</span>The Weeknd</div>
+                <div class="song-desc"><span class="material-icons icon">info</span>A catchy synthwave-inspired pop song with energetic vibes.</div>
+            </div>
+            <div class="song">
+                <div class="song-title"><span class="material-icons icon">star</span>Bohemian Rhapsody</div>
+                <div class="song-artist"><span class="material-icons icon">person</span>Queen</div>
+                <div class="song-desc"><span class="material-icons icon">info</span>A classic rock opera that blends multiple genres and showcases vocal mastery.</div>
+            </div>
+            <div class="song">
+                <div class="song-title"><span class="material-icons icon">star</span>Shape of You</div>
+                <div class="song-artist"><span class="material-icons icon">person</span>Ed Sheeran</div>
+                <div class="song-desc"><span class="material-icons icon">info</span>A modern pop hit with a memorable melody and rhythmic beat.</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Cameron Southern</p>
+    </footer>
+</body>
+</html>
